@@ -11,7 +11,7 @@ import os
 # --- Configuration ---
 
 # 1. Data file path (Please verify the path is correct)
-DATA_FILE_PATH = '/Users/lijiahao/Documents/水电站/trend_with_coordinates_full.csv'
+DATA_FILE_PATH = './trend_with_coordinates_full.csv'
 
 # 2. Color scheme
 COLORS = {
@@ -21,7 +21,7 @@ COLORS = {
 }
 
 # 3. Chart output path and settings
-OUTPUT_DIR = '/Users/lijiahao/Documents/水电站/可视化图表'
+OUTPUT_DIR = './visualizations'
 OUTPUT_FILE_NAME = 'tau_value_distribution_english.png'
 FIGURE_SIZE = (12, 4)
 DPI = 300

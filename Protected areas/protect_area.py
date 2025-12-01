@@ -25,7 +25,7 @@ from shapely.ops import unary_union
 # ------------------------------------------------------------------------------
 ROOT_FOLDER = r""  # Root folder for protected area SHP files
 CSV_PATH = r""  # Hydropower station CSV path
-RIVER_SHP_PATH = r"/Users/lijiahao/Downloads/HydroRIVERS_v10_shp/HydroRIVERS_v10_shp/HydroRIVERS_v10.shp"  # River SHP path
+RIVER_SHP_PATH = r"./HydroRIVERS_v10_shp/HydroRIVERS_v10_shp/HydroRIVERS_v10.shp"  # River SHP path
 OUTPUT_IMAGE = r"Protected_Area_River_Impact.png"  # Output image path
 LAND_SHP_PATH = r"ne_110m_land.shp"  # Land boundary SHP path
 

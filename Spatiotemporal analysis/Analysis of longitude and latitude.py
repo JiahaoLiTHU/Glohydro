@@ -1,7 +1,7 @@
 """
 Global Hydropower Plants Latitude & Longitude Distribution Boxplots
 Academic Version: Y-axis Label Adjusted, 26pt Bold Font, 45° X-ticks
-Local Path: /Users/lijiahao/Documents/水电站/hydro_final_new.csv
+Local Path: ./hydro_final_new.csv
 """
 
 import pandas as pd
