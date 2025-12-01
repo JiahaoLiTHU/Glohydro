@@ -9,9 +9,9 @@ from shapely.geometry import Point, box
 # ------------------------------------------------------------------------------
 # 1. Local Configuration (Please modify these paths)
 # ------------------------------------------------------------------------------
-ROOT_FOLDER = r"/Users/lijiahao/Documents/水电站/保护区/world"  # Root folder for SHP files
-CSV_PATH = r"/Users/lijiahao/Documents/水电站/Figure/1/unmatched.csv"  # Path to your CSV file
-OUTPUT_IMAGE = r"/Users/lijiahao/Documents/水电站/保护区/world/Protected_Area_Heatmap_Optimized_Simplified.png"  # Output image path
+ROOT_FOLDER = r"./world"  # Root folder for SHP files
+CSV_PATH = r"./Figure/1/unmatched.csv"  # Path to your CSV file
+OUTPUT_IMAGE = r"./world/Protected_Area_Heatmap_Optimized_Simplified.png"  # Output image path
 
 # Column names for latitude and longitude in the CSV file - modify according to your actual data
 LONGITUDE_COLUMN_NAME = 'Longitude'

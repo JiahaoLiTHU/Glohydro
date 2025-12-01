@@ -14,8 +14,8 @@ def plot_rivers_only():
     # --------------------------
     # Configuration Parameters
     # --------------------------
-    RIVER_SHP_PATH = "/Users/lijiahao/Downloads/HydroRIVERS_v10_shp/HydroRIVERS_v10_shp/HydroRIVERS_v10.shp"
-    OUTPUT_PATH = '/Users/lijiahao/Downloads/rivers_only.png'
+    RIVER_SHP_PATH = "./HydroRIVERS_v10_shp/HydroRIVERS_v10_shp/HydroRIVERS_v10.shp"
+    OUTPUT_PATH = './rivers_only.png'
 
     # River color and style scheme (sorted by discharge from largest to smallest)
     RIVER_STYLE_MAP = [
